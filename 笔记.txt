@@ -1,0 +1,219 @@
+svn://118.178.93.85/vswx/code/java
+
+
+6212261202033501785
+15618628593
+
+<!-- server--> 
+ <Host appBase="E:\tomcat\webapps\diyou_server" autoDeploy="true" name="test.server.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ <!-- mobile--> 
+ <Host appBase="E:\tomcat\webapps\diyou_mobile" autoDeploy="true" name="test.mobile.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ <!-- user--> 
+ <Host appBase="E:\tomcat\webapps\diyou_user" autoDeploy="true" name="test.user.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ <!-- admin--> 
+ <Host appBase="E:\tomcat\webapps\diyou_admin" autoDeploy="true" name="test.admin.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ <!-- 图片上传--> 
+ <Host appBase="E:\workspace_KF2\diyou_image\WebContent" autoDeploy="true" name="test.img.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ <!-- 图片查看--> 
+ <Host appBase="E:\workspace_KF2\images" autoDeploy="true" name="test.imgview.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host>
+
+
+Web服务器是运行及发布Web应用的容器，只有将开发的Web项目放置到该容器中，
+才能使网络中的所有用户通过浏览器进行访问。
+开发Java Web应用所采用的服务器主要是与JSP/Servlet兼容的Web服务器，
+比较常用的有Tomcat、Resin、JBoss、WebSphere 和 WebLogic 等，下面将分别进行介绍。
+
+
+<Context path="/" docBase="E://eova//static" />
+
+
+zhao_888micro@outlook.com
+
+zhaozygithub
+zhao_wymail@163.com
+zhao@git151
+
+
+$ git config --global user.name "zhaozygithub"
+$ git config --global user.email "zhao_wymail@163.com"
+
+ssh-keygen -t rsa -C "zhao_wymail@163.com"
+
+干掉IE
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace”
+
+
+
+MySQL 默认端口号为：3306
+
+URL:jdbc:mysql://localhost:3306/test?user=root&password=&useUnicode=true&characterEncoding=gbk
+
+DRIVERNAME:"com.mysql.jdbc.Driver";
+
+
+Oracle 默认端口号为：1521
+
+URL:"jdbc:oracle:thin:@localhost :1521:orcl";
+
+DRIVERNAME:"oracle.jdbc.driver.OracleDriver";
+
+
+虚拟主机配置
+ <Host appBase="E:\eova\static" autoDeploy="true" name="test.img" unpackWARs="true"> 
+<Context path="/" docBase="E://eova//static" />
+ </Host>
+
+豆沙绿
+色调改为:85;饱和度:123;亮度:205
+
+
+service tomcat restart
+
+jar -xvf game.war
+
+
+
+
+
+      <!-- server--> 
+ <Host appBase="D:\Java\tomcat-diyou\webapps\diyou_server" autoDeploy="true" name="test.server.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+ 
+  <!-- admin--> 
+ <Host appBase="D:\Java\tomcat-diyou\webapps\diyou_admin" autoDeploy="true" name="test.admin.diyou.cc" unpackWARs="true"> 
+ <Context debug="0" docBase="" path=""/> 
+ </Host> 
+
+
+#默认数据源demo
+main_url = jdbc:mysql://127.0.0.1:3306/demo?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+main_user = root
+main_pwd = zhao
+
+#Eova数据源
+eova_url = jdbc:mysql://127.0.0.1:3306/eova?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+eova_user = root
+eova_pwd = zhao
+
+
+
+
+
+#默认数据源dlcat_system
+main_url = jdbc:mysql://118.178.93.85:3306/dlcat_system?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+main_user = dlcat
+main_pwd = dlcat.com
+
+#Eova数据源
+eova_url = jdbc:mysql://118.178.93.85:3306/eova?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+eova_user = dlcat
+eova_pwd = dlcat.com
+
+#demo库
+demo_url = jdbc:mysql://118.178.93.85:3306/demo?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+demo_user = dlcat
+demo_pwd = dlcat.com
+
+
+#dlcat_content库
+dlcat_content_url = jdbc:mysql://118.178.93.85:3306/dlcat_content?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+dlcat_content_user = dlcat
+dlcat_content_pwd = dlcat.com
+
+#dlcat_finance库
+dlcat_finance_url = jdbc:mysql://118.178.93.85:3306/dlcat_finance?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+dlcat_finance_user = dlcat
+dlcat_finance_pwd = dlcat.com
+
+#dlcat_member库
+dlcat_member_url = jdbc:mysql://118.178.93.85:3306/dlcat_member?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+dlcat_member_user = dlcat
+dlcat_member_pwd = dlcat.com
+
+
+#dlcat_trust库
+dlcat_trust_url = jdbc:mysql://118.178.93.85:3306/dlcat_trust?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+dlcat_trust_user = dlcat
+dlcat_trust_pwd = dlcat.com
+
+windows 文件夹命名不能有以下字符
+/|\:*?<>"
+
+
+
+
+
+<#--freemarker map的应用-->
+<#--创建一个map,注意在freemarker中,map的key只能是字符串来作为key-->
+<#assign userMap={"1","刘德华","2":"张学友"}/>
+<#--获取map中的值-->
+${userMap["1"]}
+<#--获取map的keys-->
+<#assign  keys=userMap?keys/>
+<#--遍历map 首选获取key的集合-->
+<#list keys as key>
+  key:${key}-value:${userMap["${key}"]}
+</#list>
+</br>
+<#--直接遍历map的第二种方式-->
+<#list userMap?keys as key>
+  key:${key}--value:${userMap["${key}"]}
+</#list>
+</br>
+<#--直接遍历map的values-->
+<#list userMap?values as value>
+ ${value}
+</#list>
+
+
+
+delete from student where id not in (select minid from (select min(id) as minid from student group by name) b);
+DELETE FROM USER WHERE ID NOT IN (select minid from (SELECT  MIN(ID) FROM USER GROUP BY NAME) b);
+
+走过的每一段路，路过的每一个人都是生命中最好的风景。
+略带敷衍的字句，漫不经心的分离。
+
+
+
+
+
+#(columns[0])
+
+#for(x : columns)
+<th>#(x)</th>
+#end
+
+#for(i : data)
+<tr>
+#for(j : i)
+<td>#(j.value)</td>
+#end
+</tr>
+#end
+
+
+
+
+var page=0;
+for (i = 0; i < 6; i++) {
+	var xhr = new XMLHttpRequest();
+	page=i+2;
+	xhr.open("get", 'http://www.99renti.net/html/yazhou/2014/0705/4_' + page+'.html');
+	xhr.send();
+	xhr.onload = function(req, con) {
+		document.body.innerHTML+=req.target.responseText.match(/<img[^>]+\s+id.+?>/g);
+	}
+}
